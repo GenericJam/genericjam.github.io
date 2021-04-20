@@ -1,0 +1,98 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+    /* background: url('/images/IMG_43791506405919.26.png') center no-repeat; */
+  }
+
+  .headerImage{
+    width: 100%;
+  }
+
+
+  .resume{
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  /* .headerTitles{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    flex-direction: column;
+  } */
+
+  .name, .address, .email, .phone{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+  }
+
+  /* .address{
+    width: 50%;
+    height: 50%;
+  } */
+  
+  a{
+    text-decoration: none;
+  }
+
+  img, h2{
+    border: 1px solid white;
+    border-radius: 20px;
+    /* background: #deffff; */
+  }
+
+  h1{
+    border: 1px solid white;
+    border-radius: 20px;
+    /* background: #f6feae; */
+  }
+
+  h2, h1{
+    padding: 20px;
+  }
+
+  ol, ul {
+    padding-left: 30px;
+  }
+  
+
+.photoStripImages{
+  width: 100%;
+  max-width: 200px;
+  border: 1px solid white;
+  border-radius: 40px;
+  cursor: pointer; 
+  cursor: hand;
+}
+
+.noBullets{
+  list-style: none;
+}
+
+.itemWrapper{
+  background: #e9ecef;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer; 
+  cursor: hand;
+}
+
+.photoStrip{
+  padding-top: 50px;
+}
+
+a.anchor:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -55px; 
+  height: 55px; 
+  visibility: hidden; 
+}
+
+.hover{
+  cursor: pointer; 
+  cursor: hand;
+}
