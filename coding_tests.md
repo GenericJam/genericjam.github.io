@@ -1,12 +1,18 @@
 # Various Coding Tests Done in Elixir
 
+## Overview
+
+There doesn't seem to be a strong consensus on what makes a good coding test to judge for competence in Elixir. It's a mixed bag between take home, online challenge style and live coding. I strongly prefer the take home as it feels a bit more real world but is also generally more of a time commitment.
+
+Elixir is a pretty mature community by default as many devs land here after they've tried everything else. You should more or less expect that unless the job is explicitly labelled 'juniour' they will also expect you to have a decent knowledge of the whole web stack (HTML, CSS, JS, HTTP), SQL, shell, git as a minimum.
+
 ## Chuck
 
 [Chuck](https://github.com/GenericJam/chuck) is a coding test to show some understanding of how to build a backend. It fetches jokes from the Chuck Norris Joke API. This was a take home assignment and I landed the job.
 
 ## List Ops
 
-[List Ops](https://github.com/GenericJam/list_ops) is the screening test so one of two of the same company as FlyWheel. I guess the idea being that if you don't know anything about recursion that's enough to want to keep you out of thier code base. The exercise is to implement some common List operations like `Map`, etc.
+[List Ops](https://github.com/GenericJam/list_ops) is the screening test so one of two of the same company as FlyWheel. I guess the idea being that if you don't know anything about recursion that's enough to want to keep you out of thier code base. The exercise is to implement some common List operations like `Map`, etc. The tests were included but the functions were empty.
 
 ## FlyWheel
 
