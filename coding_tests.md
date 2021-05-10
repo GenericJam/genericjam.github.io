@@ -126,7 +126,7 @@ Ring and Dictionary were right after each ather so I didn't pass one and fail th
 Need to implement a `Map` module akin to the one built into Elixir except that it also carries a version as part of its key which if version is `nil` returns the most recent version.
 
 ```elixir
-%{%{key: :yo, version: 1}, value:  "dog"}
+%{ %{key: :yo, version: 1}, value:  "dog"}
 ```
 
 ## Hacker Rank
