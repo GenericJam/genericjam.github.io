@@ -1,14 +1,8 @@
 # Various Coding Tests Done in Elixir
 
-## Hacker Rank
+## Chuck
 
-Using Hacker Rank to discover talent among Elixir devs is like using your bathtub to discover if your toaster is on. It's sort of antioptimised for Elixir and the BEAM in general and assumes that every language is a lesser cousin of C. It creates interop by reading/writing everything from/to stdin. You may have guessed this is almost the worst way to interact with Elixir.
-
-Nevertheless not all employers have gotten the memo so you may need to be prepared for a Hacker Rank test or a live coding test that is a Hacker Rank 'guess the algorithm we're thinking of' type test. I recommend signing up for Hacker Rank and do at least a handful of problems there to prepare for the eventuality of facing them.
-
-This is really just for coding tests not for learning Elixir. It does a pretty terrible job of teaching you anything about Elixir.
-
-[These examples just give an idea of how to interact with Hacker Rank and are not necessarily optimal solutions to these problems.](https://github.com/GenericJam/HackerRank)
+[Chuck](https://github.com/GenericJam/chuck) is a coding test to show some understanding of how to build a backend. It fetches jokes from the Chuck Norris Joke API. This was a take home assignment and I landed the job.
 
 ## List Ops
 
@@ -39,6 +33,12 @@ I'm really not a fan of live coding in the first place and the unfamiliarity of 
 
 I didn't get the job that I wrote Snuflake, Ring and Dictionary for.
 
-## Chuck
+## Hacker Rank
 
-[Chuck](https://github.com/GenericJam/chuck) is a coding test to show some understanding of how to build a backend. It fetches jokes from the Chuck Norris Joke API. This was a take home assignment and I landed the job.
+Using Hacker Rank to discover talent among Elixir devs is like using your bathtub to discover if your toaster is on. It's sort of antioptimised for Elixir and the BEAM in general and assumes that every language is a lesser cousin of C. It creates interop by reading/writing everything from/to stdin. You may have guessed this is almost the worst way to interact with Elixir.
+
+Nevertheless not all employers have gotten the memo so you may need to be prepared for a Hacker Rank test or a live coding test that is a Hacker Rank 'guess the algorithm we're thinking of' type test. I recommend signing up for Hacker Rank and do at least a handful of problems there to prepare for the eventuality of facing them.
+
+This is really just for coding tests not for learning Elixir. It does a pretty terrible job of teaching you anything about Elixir.
+
+[These examples just give an idea of how to interact with Hacker Rank and are not necessarily optimal solutions to these problems.](https://github.com/GenericJam/HackerRank)
