@@ -41,8 +41,9 @@ This is a coding test with some concepts from the target industry. It was a live
 
 If you want to reenact without my solutions, just clone and remove the contents of the functions.
 
-## Snuflake - 1
-[Snuflake](https://github.com/GenericJam/Snuflake) is the screening test for the same company that I also wrote Ring and Dictionary for. They wanted an id that robustly creates new IDs that you could have some guarantees that you wouldn't duplicate them in the future. I base my implementation off of [Snowflake IDs](https://en.wikipedia.org/wiki/Snowflake_ID). There was an emphasis on a quick as possible so it is made using bitstrings and is pretty fast.
+## [Snuflake](https://github.com/GenericJam/Snuflake)
+
+The screening test for the same company that I also wrote Ring and Dictionary for. They wanted an id that robustly creates new IDs that you could have some guarantees that you wouldn't duplicate them in the future. I base my implementation off of [Snowflake IDs](https://en.wikipedia.org/wiki/Snowflake_ID). There was an emphasis on a quick as possible so it is made using bitstrings and is pretty fast.
 
 There was of course no points for nuance here but...
 
@@ -100,9 +101,9 @@ Assume that any node will not receive more than 100,000 requests per second.
 Please choose a structure for your global id and describe it. For each part of your structure, please explain why it is necessary and include any defining information such as size (in bits). If applicable, explain how the size of the section is related to the maximal request rate per node.
 
 We will evaluate your solution for correctness, simplicity, clarity, and robustness. Providing tests is a huge plus.
-## Ring - 2
+## [Ring](https://github.com/GenericJam/Ring)
 
-[Ring](https://github.com/GenericJam/Ring) was a live coding test the point of which still escapes me. It was online via coderpad. The task was to create a list as a [ring](https://en.wikipedia.org/wiki/Linked_list#Circularly_linked_vs._linearly_linked). This is relatively simple to do in a language like C. You implement a linked list where the tail points back to the head. The BEAM _really_ doesn't want to do this. If I had remembered [digraph](https://erlang.org/doc/man/digraph.html) I should have used that. Without digraph the next best thing is to implement it on top of a map which also is a bit stupid. In order to isolate it and make it sort of self contained and 'built in' akin to what pointers are I put it in the process dictionary. It really stumped me for a while. I didn't finish within the hour. I had to finish it later.
+A live coding test the point of which still escapes me. It was online via coderpad. The task was to create a list as a [ring](https://en.wikipedia.org/wiki/Linked_list#Circularly_linked_vs._linearly_linked). This is relatively simple to do in a language like C. You implement a linked list where the tail points back to the head. The BEAM _really_ doesn't want to do this. If I had remembered [digraph](https://erlang.org/doc/man/digraph.html) I should have used that. Without digraph the next best thing is to implement it on top of a map which also is a bit stupid. In order to isolate it and make it sort of self contained and 'built in' akin to what pointers are I put it in the process dictionary. It really stumped me for a while. I didn't finish within the hour. I had to finish it later.
 
 If I had to do this for real a) I wouldn't and b) I would use `ets` over the process dictionary.
 
@@ -113,9 +114,9 @@ The reason the BEAM doesn't want to do it is you need a mutable structure somewh
 No brief as this was just verbal instruction in the context of the test. Just imagine having to recreate a circular structure where one node refers to the next and the next... and the last refers to the first.
 Need to be able to create a ring, add a node, move between nodes as a minimum.
 
-## Dictionary - 3
+## [Dictionary](https://github.com/GenericJam/Dictionary)
 
-[Dictionary](https://github.com/GenericJam/Dictionary) is a coding test with some concepts from the target industry in that they need a way to identify a key with multiple versions. It was a live coding pairing session using coderpad which is an online editor that both the pair coder/interviewer and I could access. I didn't get the job on the failure of this and the Ring list. They didn't like that my `get` function would have taken too long to run which in retrospect is kind of obvious but these solutions don't occur to you until later sometimes. I should have done a nested map so the key would pull another map with version of the key so that a `nil` key would get the latest version.
+A coding test with some concepts from the target industry in that they need a way to identify a key with multiple versions. It was a live coding pairing session using coderpad which is an online editor that both the pair coder/interviewer and I could access. I didn't get the job on the failure of this and the Ring list. They didn't like that my `get` function would have taken too long to run which in retrospect is kind of obvious but these solutions don't occur to you until later sometimes. I should have done a nested map so the key would pull another map with version of the key so that a `nil` key would get the latest version.
 
 I'm really not a fan of live coding in the first place and the unfamiliarity of the online editor added to the stress of the situation. I guess some companies want people to perform well under stress so perhaps this is a valuable screening device for them. The online coding platform had a similar form of interaction as Hacker Rank where there is an implied command line area where you execute your code.
 
