@@ -31,9 +31,9 @@ free to do so however).
 
 ## [List Ops](https://github.com/GenericJam/list_ops)
 
-is the screening test of the same company as the FlyWheel test. I guess the idea being that if you don't know anything about recursion that's enough to want to keep you out of their code base. The exercise is to implement some common List operations like `Map`, etc. The tests were included but the functions were empty. 
+The screening test of the same company as the FlyWheel test. I guess the idea being that if you don't know anything about recursion that's enough to want to keep you out of their code base. The exercise is to implement some common List operations like `Map`, etc. The tests were included but the functions were empty. 
  
- If you want to reenact without my solutions, just clone and remove the contents of the functions.
+ If you want to reenact without my solutions, just clone and remove the contents of the functions. After the fact I found it on [exorcism](https://exercism.io/my/solutions/c6b27347d59c49babcc175cdb4a6dd05). I guess you could take that as an indicator that exercism is a good resource for learning and preparing for a coding test.
 
 ## [FlyWheel](https://github.com/GenericJam/FlyWheel)
 
@@ -129,6 +129,10 @@ Need to implement a `Map` module akin to the one built into Elixir except that i
 ```elixir
 %{ %{key: :yo, version: 1}, value:  "dog"}
 ```
+
+## [Exercism](https://exercism.io/my/tracks/elixir)
+
+Exercism doesn't seem to have a testing tier but that won't stop companies from using their exercises as coding tests. See List Ops. This seems like a good place to practice. Worth noting there doesn't seem to be any exercises for network stuff, spawning, inter process communication, supervisors, or anything else that sets Elixir apart, all of which I would think of as fair game for a coding test.
 
 ## Hacker Rank
 
