@@ -13,7 +13,7 @@ Chuck is a coding test to show some understanding of how to build a backend. It 
 ### Brief
 
 We want you to build an application in Elixir that will:
-Display a list of jokes from the [Chuck Norris API](https://api.chucknorris.io/#!
+Display a list of jokes from the [Chuck Norris API](https://api.chucknorris.io/)
 
 * Allows a user to favourite jokes.
 * Allows a user to retrieve their favourite jokes.
